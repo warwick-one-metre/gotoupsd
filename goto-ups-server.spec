@@ -1,12 +1,12 @@
 Name:      goto-ups-server
-Version:   2.1.1
+Version:   2.1.2
 Release:   0
 Url:       https://github.com/warwick-one-metre/gotoupsd
 Summary:   Pyro frontend for monitoring the GOTO UPSes via SNMP.
 License:   GPL-3.0
 Group:     Unspecified
 BuildArch: noarch
-Requires:  python36, python36-Pyro4, python36-warwick-observatory-common, python36-warwick-observatory-power
+Requires:  python3, python3-Pyro4, python3-warwick-observatory-common, python3-warwick-observatory-power
 Requires:  observatory-log-client, net-snmp-utils, %{?systemd_requires}
 
 %description
